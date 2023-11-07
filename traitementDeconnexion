@@ -1,0 +1,10 @@
+<?php
+session_start();
+//pour les valeurs contenue dans la session
+unset($_SESSION['login']);
+unset($_SESSION['statut']);
+unset($_SESSION['erreur']);
+unset($_SESSION['message']);
+header('Location: login.php');
+
+?>

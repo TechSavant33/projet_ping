@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Page HTML</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="image_container">
+                <img id="logo1" src="assets/img/esigelec.png" alt="Logo Esigelec">
+            </div>
+            <div class="image_container2">
+                    <img id="logo2" src="assets/img/ping.jpg" alt="Logo Ping">
+            </div>
+            <ul class="ul">
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">À propos</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="login.php">Connexion</a> </li>
+                <li><a href="inscription.php">Inscription</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="container">
+                <h1 id="sujet" style="height: 41px; width: 930px; margin: 2px; padding: 0px;">Sujet en tendance</h1>
+            </div>
+        </section>
+        <div class="container">
+            <div class="row-cols-6">
+        <button class="btn" id="image1" onclick="window.location.href = '#'" ><img src="assets/img/intelligence artificiel.jpeg" style="padding: 5px;">
+            <span class="product-info">
+                <span class="card-subtitle">
+                    <span>Intelligence Artificielle</span>
+                </span>
+            </span>
+        </button>
+        <button class="btn" id="image2" onclick="window.location.href = '#'"><img src="assets/img/mal nutrition.jpg" style="padding: 5px;">
+            <span class="product-info">
+                <span class="card-subtitle">
+                    <span>Malnutrition</span>
+                </span>
+            </span>
+        </button>
+        </button>
+        <button class="btn" id="image3" onclick="window.location.href = '#'"><img src="assets/img/mangez.jpg" style="padding: 5px;">
+            <span class="product-info">
+                <span class="card-subtitle">
+                    <span>Manger Bio</span>
+                </span>
+            </span>
+        </button>
+        <button class="btn" id="image4" onclick="window.location.href = '#'"><img src="assets/img/rechauffement_climatique.jpg" style="padding: 5px;">
+            <span class="product-info">
+                <span class="card-subtitle">
+                    <span>Développment Durable</span>
+                </span>
+            </span>
+
+        </button>
+        <button class="btn" id="image5" onclick="window.location.href = '#'"><img src="assets/img/voiture electrique.jpeg" style="padding: 5px;">
+            <span class="product-info">
+                <span class="card-subtitle">
+                    <span>Passer à l'électrique</span>
+                </span>
+            </span>
+        </button>
+        </div>
+        </div>
+        <section>
+            <div class="container">
+                <h1 id="temoignages" style="height: 41px; width: 930px; margin: 2px; padding: 0px;">Témoignages</h1>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2023 Mon Site Web</p>
+    </footer>
+
+    <!-- Scripts JavaScript (facultatif) -->
+    <script src="script.js"></script>
+</body>
+</html>
